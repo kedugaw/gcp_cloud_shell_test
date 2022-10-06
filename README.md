@@ -1,9 +1,14 @@
-# gcp_cloud_shell_my_test
+# gcp_cloud_shell_test
 
 ### 這是上完 2022-10-05 LineBot 雲端佈署後(課堂中已在 Cloud Shell 做過 ssh-keygen)做的測試筆記
 
-### 測試目標：將一個專案程式 git push/pull 到 github
+##### -> 先砍掉 kedugaw GitHub SSH key
 
-### 測試方法： SSH / HTTPS / Personal access tokens
+### 測試步驟：
 
-##### 刪除之前設定的 SSH key，重新測試 git push/pull
+###### 1)在 GCP Cloud Shell 將專案程式(JanllyGuo/gcp_cloud_shell_my_test) git clone 下來
+
+###### 2)新增檔案or程式後，再 push 到自己的 GitHub(kedugaw/gcp_cloud_shell_test)
+
+###### 3)在自己的 GitHub(kedugaw/gcp_cloud_shell_test) 修改檔案or程式後，再到 GCP Cloud Shell git pull 下來
+
